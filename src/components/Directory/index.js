@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import ShopMen from '../../assets/shopmens.jpg';
 import ShopWomen from '../../assets/shopwomens.jpg';
