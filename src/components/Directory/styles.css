@@ -1,0 +1,43 @@
+.wrap-directory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrap-directory .item {
+  position: relative;
+  height: 555px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrap-directory .item a {
+  position: absolute;
+  background: white;
+  border: 1px solid black;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+  color: black;
+  padding: 8px 10px;
+}
+
+.wrap-directory .item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+/*# sourceMappingURL=styles.css.map */

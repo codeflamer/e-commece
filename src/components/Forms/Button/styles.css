@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  width: 100%;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1.8rem;
+  outline: none;
+  border: 0;
+  padding: 10px 0;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */

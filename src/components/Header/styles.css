@@ -1,0 +1,46 @@
+header {
+  height: 6.5rem;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.wrap {
+  position: relative;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .Logo a {
+  color: black;
+}
+
+.wrap .callToaction {
+  position: absolute;
+  right: 10px;
+  font-size: 1.8rem;
+}
+
+.wrap .callToaction ul {
+  padding: 0;
+  margin: 0;
+}
+
+.wrap .callToaction li {
+  display: inline-block;
+  margin-right: 7px;
+  list-style: none;
+}
+
+.wrap .callToaction li a {
+  color: black;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=styles.css.map */

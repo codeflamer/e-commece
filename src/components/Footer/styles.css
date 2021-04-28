@@ -1,0 +1,13 @@
+.footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer .wrap {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+  font-size: 1.3rem;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
